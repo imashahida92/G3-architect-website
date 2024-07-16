@@ -166,9 +166,51 @@
   filter: grayscale(100%);
   margin: 0 auto;
 }
-
-
-
+/* features section started here  */
+#features-style{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.feat-decription{
+  color: rgba(114, 114, 114, 1);
+  font-weight: 400px;
+  font-size: 1rem;
+}
+.feature-title{
+  color: rgba(19, 19, 19, 1);
+  font-weight: 600px;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.feature-card{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.features{
+  gap: 140px;
+}
+/* .features img{
+  width: 800px;
+  height: 1059px
+} */
+/* experience badge */
+#exp-badge{
+ padding: 45px 42px;
+ color: rgba(255, 255, 255, 1);
+ margin-left: -100px;
+ margin-top: -100px;
+}
+#exp-year{
+  font-size: 4.1rem;
+  font-weight: bold;
+}
+#exp-badge .exp{
+  font-size: 1.5rem;
+  font-weight: 500px;
+}
 /*responsive media   */
 @media screen and (max-width : 576px){
   .navbar, 
@@ -195,6 +237,16 @@
     gap: 20px;
     justify-items: center;
   }
+  .features{
+    flex-direction: column;
+  }
+  .features-img img{
+    width: 100%;
+  }
+  #exp-badge{
+    margin-left: 35px;
+    /* margin-top: 0px; */
+  }
 }
 
 /* media responsive for medium devices  */
@@ -212,5 +264,12 @@
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
     justify-items: center;
+  }
+  .features{
+    flex-direction: column;
+  }
+  #exp-badge{
+    margin-left: 200px;
+    /* margin-top: 0px; */
   }
 }
