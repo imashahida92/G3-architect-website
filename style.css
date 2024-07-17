@@ -211,6 +211,19 @@
   font-size: 1.5rem;
   font-weight: 500px;
 }
+
+/* footer section */
+.footer{
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #FFF4E7;
+  text-align: center;
+  padding: 35px 410px;
+  margin-top: 130px;
+}
+
+
+
 /*responsive media   */
 @media screen and (max-width : 576px){
   .navbar, 
@@ -247,6 +260,12 @@
     margin-left: 35px;
     /* margin-top: 0px; */
   }
+  .footer{
+    width: 100%;
+    padding:0;
+    margin:0;
+    font-size: 1rem;
+  }
 }
 
 /* media responsive for medium devices  */
@@ -271,5 +290,11 @@
   #exp-badge{
     margin-left: 200px;
     /* margin-top: 0px; */
+  }
+  .footer{
+    width: 100%;
+    padding:0;
+    margin:0;
+    font-size: 1rem;
   }
 }
